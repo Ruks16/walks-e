@@ -1,0 +1,107 @@
+header {
+  color: white;
+  background-color: #02172d;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.page {
+    color: #000000;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+      padding: 65px 0;
+      margin: 0px;
+    background-image: url("https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Roy%20Smith,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1404918330/wjnl67ymyspherua8y9j.jpg");
+    background-size: cover;
+  }
+
+.walks{
+  display: flex;
+  flex-wrap: noWrap;
+  justify-content: center;
+}
+
+  .port {
+    background: rgba(255, 255, 255, 0.35);
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+    margin: 50px;
+    backdrop-filter: blur(40px);
+  }
+
+  .arthur {
+    background: rgba(255, 255, 255, 0.35);
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+    margin: 50px;
+    backdrop-filter: blur(40px);
+  }
+
+  .stockbridge {
+    background: rgba(255, 255, 255, 0.35);
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+    margin: 50px;
+    backdrop-filter: blur(50px);
+  }
+
+.button {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.two h1 {
+  text-transform: capitalize;
+}
+
+.two h1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: lightgray;
+  padding-bottom: 10px;
+}
+.alt-two h1 {
+  text-align:center;
+}
+.alt-two h1:before {
+  left:50%; margin-left:-30px;
+}
